@@ -1,24 +1,15 @@
-### Step 1 Get the game files
+### Quick start
 
-To start the server you first need the official server release
+You need the official server files before starting. Choose one:
 
-Two options to obtain server files:
+- **Manually copy** from your Launcher installation:
+  ```
+  Windows: %appdata%\Hytale\install\release\package\game\latest
+  Linux: $XDG_DATA_HOME/Hytale/install/release/package/game/latest
+  MacOS: ~/Application Support/Hytale/install/release/package/game/latest
+  ```
+- **Use the Hytale Downloader CLI**
 
-    Manually copy from your Launcher installation
-    Use the Hytale Downloader CLI
+Copy the downloaded `Server/` directory and `Assets.zip` into your mapped `/data` folder, then start the container. You'll be prompted to log in.
 
-Manually Copy from Launcher
-
-Find the files in your launcher installation folder:
-
-```
-Windows: %appdata%\Hytale\install\release\package\game\latest
-Linux: $XDG_DATA_HOME/Hytale/install/release/package/game/latest
-MacOS: ~/Application Support/Hytale/install/release/package/game/latest
-```
-
-### Step 2 Move them into your mapped /data folder
-
-Start the container, you will be promted for a login.
-
-Enjoy.
+Enjoy
